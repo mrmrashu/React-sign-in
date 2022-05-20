@@ -1,10 +1,13 @@
-# Getting Started with Create React App
+# Getting Started with React-Guassian
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is Intiated & maintained to bring the Best Design Patterns & Robust UI&UX Design Techneques & Philosophies to the Design System of UI&UX with the powerfull capabilities of React. This Project Brings the Philosophies & Patterns of Modern Art to the Design of Interfaces
 
-## Available Scripts
+## What is Guassian?
 
-In the project directory, you can run:
+"Guassian" means something of a value or anything that's neither too high, not too low, but instead follows a very specific Pattern with Ratios invoking a certain feeling. And that's not just it Guassian involves design complex interfaces with focus on little details that makes up a big Whole of Complex art.
+"Guassian is the Modern Art brought to the UI" - Ashu Sharma
+
+## Available Commands to Run/Test/Build the project : 
 
 ### `npm start`
 
