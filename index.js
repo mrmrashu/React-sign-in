@@ -16,8 +16,8 @@ import {TitleTextBox} from "./components/HOC/title-textbox.js"
 
 
 const Form = () => {
-	
-	let Objkeys = Object.keys(values);
+
+
 	// the useState hook to manage state of the components inside <Form/>
 	const [values, setValues] = useState(() => {
 		return {
@@ -83,8 +83,6 @@ const Form = () => {
 			}}
 		})
 	}
-	
-	// State Management for Password (component)
 	const setPwd = (e) => {
 		setValues(val => {
 			return {
@@ -135,6 +133,8 @@ const Form = () => {
 	/*const TitleBoxes = Objkeys.map((el) => {
 		<TitleTextBox><TitleTextBox>
 	})*/
+
+	let Objkeys = Object.keys(values);
 	return (
 		<>
 			<DialogBox className="DialogBox">
@@ -197,7 +197,7 @@ const Form = () => {
 			<Button onClick={checkState}>Check State</Button>
 		</DialogBox>
 	)
-}*/
-
+}
+*/
 // ReactDOM.render(<HookApp></HookApp> , document.getElementById("hook"));
 ReactDOM.render(<Form></Form> , document.getElementById('root'));
