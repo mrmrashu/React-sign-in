@@ -1,0 +1,21 @@
+/*Title TextBox
+ 	Description : A textbox used with a title dedicated to it;
+ 	Author : Ashu Sharma;
+*/
+.TitleTextBox {
+	display: inline-flex;
+	margin: 10px 5px;
+}
+.TitleTextBox .titles {
+	text-align: left;
+	font-size: 14px;
+	justify-content: flex-end;
+	align-items: center;
+}
+.TitleTextBox input {
+	display: flex;
+	justify-content: flex-start;
+}
+.TitleTextBox ~ .separator {
+	padding-bottom: 20px;
+}
